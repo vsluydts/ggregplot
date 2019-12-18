@@ -6,7 +6,7 @@ Efxplot <- function(ModelList, Sig = TRUE,
                     Intercept = TRUE,
                     tips = 0.2){
 
-  require(dplyr); require(ggplot2); require(INLA); require(MCMCglmm)
+  require(dplyr); require(ggplot2); require(INLA); require(MCMCglmm); require(stringr)
 
   graphlist<-list()
 
